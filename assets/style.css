@@ -1,0 +1,143 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* ! start body */
+    /* start header */
+    
+    header {}
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    
+    .container .ul1 {
+        display: flex;
+    }
+    
+    .container .ul1 li a {
+        justify-content: space-evenly;
+    }
+    /* end header */
+    /* start main */
+    
+    main {}
+    
+    main .container {
+        width: 100%;
+    }
+    /* start left  */
+    
+    main .container .left {
+        width: 25%;
+        position: relative;
+    }
+    
+    main .container .left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    
+    main .container .left .heading {
+        position: absolute;
+        color: green;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    main .container .left p {
+        position: absolute;
+        width: 100%;
+        top: 58%;
+        text-align: center;
+        color: green;
+    }
+    /* end left */
+    /* start right */
+    
+    main .container .right {
+        width: 75%;
+        margin: 10px 10px 10px 0px;
+        background-color: #fff;
+    }
+    
+    main .container .right form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    main .container .right form ul li {
+        margin: 10px;
+    }
+    
+    main .container .right form ul li label .lunchdetailpos {
+        display: flex;
+        width: 300px;
+        justify-content: space-around;
+    }
+    
+    main .container .right form ul li label .lunchdetailpos a:hover {
+        border-bottom: 1px solid black;
+        color: black;
+    }
+    
+    main .container .right form ul li label .paymentdetailpos {
+        display: flex;
+        width: 300px;
+        justify-content: space-around;
+    }
+    
+    main .container .right form ul li label .paymentdetailpos a:hover {
+        border-bottom: 1px solid black;
+        color: black;
+    }
+    
+    main .container .right form ul li .selectlaungc {
+        width: 285px;
+        height: 40px;
+        border-radius: 2px;
+    }
+    
+    main .container .right form .labelwidh li input {
+        width: 285px;
+        height: 40px;
+    }
+    
+    .radiotype {
+        height: 40px;
+        width: 285px;
+        display: flex;
+        margin: 20px 5px 0px 0px;
+        justify-content: space-around;
+    }
+    
+    .donateform {
+        width: 75%;
+        margin-left: 25%;
+    }
+    
+    .donateform form label {
+        margin-left: 35%;
+    }
+    
+    .donateform form input {
+        width: 60%;
+        margin-left: 10%;
+    }
+    /* end right */
+    /* end main */
+    /* ! end body */
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
